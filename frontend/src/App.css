@@ -1,0 +1,37 @@
+body {
+  background-color: lightskyblue;
+  margin: 0;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main container */
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Heading */
+.heading {
+  font-style: italic;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+/* 3D Boxes */
+.box {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  width: 300px;
+  border-radius: 12px;
+
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
